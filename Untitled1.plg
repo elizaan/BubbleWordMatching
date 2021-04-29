@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Untitled1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Mim\AppData\Local\Temp\RSP278B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Untitled1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\IGRAPHICS\NAJA NAJA\Untitled1.c"
+]
+Creating command line "cl.exe @C:\Users\Mim\AppData\Local\Temp\RSP278B.tmp" 
+Creating temporary file "C:\Users\Mim\AppData\Local\Temp\RSP279B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Untitled1.pdb" /debug /machine:I386 /out:"Debug/Untitled1.exe" /pdbtype:sept 
+".\Debug\Untitled1.obj"
+]
+Creating command line "link.exe @C:\Users\Mim\AppData\Local\Temp\RSP279B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Untitled1.c
+c:\igraphics\naja naja\igraphics.h(34) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(35) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(36) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(37) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(38) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(39) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(40) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(41) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(42) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(43) : error C2055: expected formal parameter list, not a type list
+c:\igraphics\naja naja\igraphics.h(104) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(105) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(106) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(107) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(108) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(110) : error C2065: 'i' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(110) : error C2065: 'j' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(110) : error C2065: 'nPixels' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(113) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(113) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(113) : error C2143: syntax error : missing ')' before 'type'
+c:\igraphics\naja naja\igraphics.h(113) : error C2143: syntax error : missing ';' before 'type'
+c:\igraphics\naja naja\igraphics.h(113) : error C2065: 'k' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(113) : warning C4552: '>=' : operator has no effect; expected operator with side-effect
+c:\igraphics\naja naja\igraphics.h(113) : error C2059: syntax error : ')'
+c:\igraphics\naja naja\igraphics.h(114) : error C2143: syntax error : missing ';' before '{'
+c:\igraphics\naja naja\igraphics.h(118) : error C2065: 'rgPixels' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(118) : error C2109: subscript requires array or pointer type
+c:\igraphics\naja naja\igraphics.h(118) : error C2106: '=' : left operand must be l-value
+c:\igraphics\naja naja\igraphics.h(119) : error C2109: subscript requires array or pointer type
+c:\igraphics\naja naja\igraphics.h(119) : error C2109: subscript requires array or pointer type
+c:\igraphics\naja naja\igraphics.h(119) : error C2106: '=' : left operand must be l-value
+c:\igraphics\naja naja\igraphics.h(123) : error C2065: 'width' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(123) : error C2065: 'height' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(123) : warning C4022: 'glDrawPixels' : pointer mismatch for actual parameter 5
+c:\igraphics\naja naja\igraphics.h(125) : error C2065: 'delete' : undeclared identifier
+c:\igraphics\naja naja\igraphics.h(125) : error C2059: syntax error : ']'
+c:\igraphics\naja naja\igraphics.h(148) : error C2143: syntax error : missing ')' before '='
+c:\igraphics\naja naja\igraphics.h(148) : error C2072: 'iText' : initialization of a function
+c:\igraphics\naja naja\igraphics.h(148) : error C2059: syntax error : ')'
+c:\igraphics\naja naja\igraphics.h(149) : error C2143: syntax error : missing ';' before '{'
+c:\igraphics\naja naja\igraphics.h(149) : error C2449: found '{' at file scope (missing function header?)
+c:\igraphics\naja naja\igraphics.h(155) : error C2059: syntax error : '}'
+c:\igraphics\naja naja\igraphics.h(240) : error C2143: syntax error : missing ')' before '='
+c:\igraphics\naja naja\igraphics.h(240) : error C2072: 'iFilledCircle' : initialization of a function
+c:\igraphics\naja naja\igraphics.h(240) : error C2059: syntax error : ')'
+c:\igraphics\naja naja\igraphics.h(241) : error C2143: syntax error : missing ';' before '{'
+c:\igraphics\naja naja\igraphics.h(241) : error C2449: found '{' at file scope (missing function header?)
+c:\igraphics\naja naja\igraphics.h(257) : error C2059: syntax error : '}'
+c:\igraphics\naja naja\igraphics.h(275) : error C2143: syntax error : missing ')' before '='
+c:\igraphics\naja naja\igraphics.h(275) : error C2072: 'iEllipse' : initialization of a function
+c:\igraphics\naja naja\igraphics.h(275) : error C2059: syntax error : ')'
+c:\igraphics\naja naja\igraphics.h(276) : error C2143: syntax error : missing ';' before '{'
+c:\igraphics\naja naja\igraphics.h(276) : error C2449: found '{' at file scope (missing function header?)
+c:\igraphics\naja naja\igraphics.h(289) : error C2059: syntax error : '}'
+c:\igraphics\naja naja\igraphics.h(425) : error C2143: syntax error : missing ')' before '='
+c:\igraphics\naja naja\igraphics.h(425) : error C2072: 'iInitialize' : initialization of a function
+c:\igraphics\naja naja\igraphics.h(425) : error C2059: syntax error : 'type'
+c:\igraphics\naja naja\igraphics.h(425) : error C2059: syntax error : ')'
+c:\igraphics\naja naja\untitled1.c(551) : error C2198: 'iText' : too few actual parameters
+c:\igraphics\naja naja\untitled1.c(564) : error C2198: 'iText' : too few actual parameters
+c:\igraphics\naja naja\untitled1.c(1062) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+c:\igraphics\naja naja\untitled1.c(1063) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+c:\igraphics\naja naja\untitled1.c(1064) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void )'
+c:\igraphics\naja naja\untitled1.c(1065) : warning C4020: 'iInitialize' : too many actual parameters
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Untitled1.exe - 59 error(s), 6 warning(s)
+</pre>
+</body>
+</html>

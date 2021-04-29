@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: bubble words - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\eliza\AppData\Local\Temp\RSP6C68.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/bubble words.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents\programms\IGRAPHICS\Bubble words\bubble words.cpp"
+]
+Creating command line "cl.exe @C:\Users\eliza\AppData\Local\Temp\RSP6C68.tmp" 
+Creating temporary file "C:\Users\eliza\AppData\Local\Temp\RSP6C69.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/bubble words.pdb" /debug /machine:I386 /out:"Debug/bubble words.exe" /pdbtype:sept 
+".\Debug\bubble words.obj"
+]
+Creating command line "link.exe @C:\Users\eliza\AppData\Local\Temp\RSP6C69.tmp"
+<h3>Output Window</h3>
+Compiling...
+bubble words.cpp
+d:\documents\programms\igraphics\bubble words\igraphics.h(104) : warning C4101: 'k' : unreferenced local variable
+d:\documents\programms\igraphics\bubble words\bubble words.cpp(34) : warning C4101: 'j' : unreferenced local variable
+d:\documents\programms\igraphics\bubble words\bubble words.cpp(35) : warning C4101: 'sh' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+bubble words.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
